@@ -8,9 +8,7 @@ This project focuses on generating high-quality synthetic data for machine learn
 .
 ├── create_dataset.ipynb      # Main notebook for dataset creation
 ├── synthetic_data.jsonl      # Raw synthetic data
-├── synthetic_data_filtered.jsonl  # Filtered synthetic data
-├── models/                   # Directory containing trained models
-└── .venv/                    # Python virtual environment
+└── synthetic_data_filtered.jsonl  # Filtered synthetic data
 ```
 
 ## Detailed Project Workflow
@@ -71,35 +69,3 @@ The quality assessment process includes:
 
 - **llama-3.1-405b-instruct**: Used for generating subtopics, questions, and responses
 - **nemotron-4-340b-reward**: Used for quality assessment and filtering
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-MIT License
-
-Copyright (c) 2024 [Your Name/Organization]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
